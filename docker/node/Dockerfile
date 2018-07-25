@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ARG NETWORK=live
+ARG NETWORK=test
 
 ENV BOOST_ROOT=/tmp/boost_install
 
