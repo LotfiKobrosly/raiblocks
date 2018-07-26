@@ -3,7 +3,7 @@
     "rpc_enable": "true",
     "rpc": {
         "address": "::ffff:0.0.0.0",
-        "port": "55000",
+        "port": "7076",
         "enable_control": "true",
         "frontier_request_limit": "16384",
         "chain_request_limit": "16384"
@@ -15,28 +15,29 @@
         "receive_minimum": "1000000000000000000000000",
         "logging": {
             "version": "3",
-            "ledger": "false",
-            "ledger_duplicate": "false",
-            "vote": "false",
+            "ledger": "true",
+            "ledger_duplicate": "true",
+            "vote": "true",
             "network": "true",
-            "network_message": "false",
-            "network_publish": "false",
-            "network_packet": "false",
-            "network_keepalive": "false",
-            "network_node_id_handshake": "false",
-            "node_lifetime_tracing": "false",
+            "network_message": "true",
+            "network_publish": "true",
+            "network_packet": "true",
+            "network_keepalive": "true",
+            "network_node_id_handshake": "true",
+            "node_lifetime_tracing": "true",
             "insufficient_work": "true",
             "log_rpc": "true",
-            "bulk_pull": "false",
+            "bulk_pull": "true",
             "work_generation_time": "true",
-            "log_to_cerr": "false",
+            "log_to_cerr": "true",
             "max_size": "16777216",
             "rotation_size": "4194304",
-            "flush": "false"
+            "flush": "true"
         },
         "work_peers": "",
         "preconfigured_peers": [
-            "rai-beta.raiblocks.net"
+            "peer1",
+            "peer2"
         ],
         "preconfigured_representatives": [
             "xrb_3betaz86ypbygpqbookmzpnmd5jhh4efmd8arr9a3n4bdmj1zgnzad7xpmfp",
@@ -60,7 +61,7 @@
         "state_block_parse_canary": "1F76506FE8606E8BBA8C732A32F6C8DA78E514182C8BED62D1D988F3159BEAA2",
         "state_block_generate_canary": "1F76506FE8606E8BBA8C732A32F6C8DA78E514182C8BED62D1D988F3159BEAA2"
     },
-    "opencl_enable": "false",
+    "opencl_enable": "true",
     "opencl": {
         "platform": "0",
         "device": "0",
