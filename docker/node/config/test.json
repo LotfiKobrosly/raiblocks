@@ -15,27 +15,28 @@
         "receive_minimum": "1000000000000000000000000",
         "logging": {
             "version": "2",
-            "ledger": "false",
-            "ledger_duplicate": "false",
-            "vote": "false",
+            "ledger": "true",
+            "ledger_duplicate": "true",
+            "vote": "true",
             "network": "true",
-            "network_message": "false",
-            "network_publish": "false",
-            "network_packet": "false",
-            "network_keepalive": "false",
-            "node_lifetime_tracing": "false",
+            "network_message": "true",
+            "network_publish": "true",
+            "network_packet": "true",
+            "network_keepalive": "true",
+            "node_lifetime_tracing": "true",
             "insufficient_work": "true",
             "log_rpc": "true",
-            "bulk_pull": "false",
+            "bulk_pull": "true",
             "work_generation_time": "true",
-            "log_to_cerr": "false",
+            "log_to_cerr": "true",
             "max_size": "16777216",
             "rotation_size": "4194304",
-            "flush": "false"
+            "flush": "true"
         },
         "work_peers": "",
         "preconfigured_peers": [
-            "rai-test.raiblocks.net"
+            "peer1",
+            "peer2"
         ],
         "preconfigured_representatives": [
             "xrb_3arg3asgtigae3xckabaaewkx3bzsh7nwz7jkmjos79ihyaxwphhm6qgjps4",
@@ -58,7 +59,7 @@
         "callback_target": "",
         "lmdb_max_dbs": "128"
     },
-    "opencl_enable": "false",
+    "opencl_enable": "true",
     "opencl": {
         "platform": "0",
         "device": "0",
